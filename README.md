@@ -79,7 +79,8 @@ sudo /bin/systemctl start nessusd.service
 
 Q1. Provide Screen Shot of your above Logged in Nessus Page.
 
-![Screen Shot 2025-01-18 at 4 06 00 PM](https://github.com/user-attachments/assets/46a57c62-f7c8-4b88-84f9-ccd463561af3)
+![Screen Shot 2025-01-18 at 4 06 00 PM](https://github.com/user-attachments/assets/09391126-df4d-4f3a-96ac-e3815a2d08ad)
+
 
 Nessus – finding Local Vulnerabilities:
 Now that we have Nessus installed and configured, we will be able to begin testing of our first set of vulnerabilities. Nessus allows us to attack a wide range of vulnerabilities depending on our feed, and we will confine our list of assessing the vulnerabilities of our target to those specific to the type of information we seek to gain from the assessment. In this recipe, we will begin by finding local vulnerabilities. These are vulnerabilities specific to the operating system we are using.
@@ -107,7 +108,7 @@ Then type ifconfig to obtain the ipaddress
 
 ![Screen Shot 2025-01-18 at 4 11 16 PM](https://github.com/user-attachments/assets/9a1e35b5-0429-474e-a760-d59e98651e98)
 
-![Screen Shot 2025-01-18 at 4 11 58 PM](https://github.com/user-attachments/assets/f2d000a1-6104-44e9-9ed5-c0b7bf253306)
+![Screen Shot 2025-01-18 at 4 11 58 PM](https://github.com/user-attachments/assets/a3e17a7b-4bc0-48c3-af7c-5f9d10424e00)
 
 5. On the Plugins tab, select Disable All and Enable the following specific vulnerabilities:
   ▪ Ubuntu Local Security Checks
@@ -135,7 +136,7 @@ Then type ifconfig to obtain the ipaddress
    ▪ Click on the number under the column to get the list of specific issues/vulnerabilities found
    ▪ The vulnerabilities will be listed in detail
    
-![Screen Shot 2025-01-18 at 4 17 32 PM](https://github.com/user-attachments/assets/5954d973-9a63-4584-966e-ba1fa41737d3)
+![Screen Shot 2025-01-18 at 4 17 32 PM](https://github.com/user-attachments/assets/0fbf0a3e-3541-4f34-87d1-f2d791410b8b)
 
 13. Click on export Report - Complete List of Vulnerabilities by host.
 
@@ -143,6 +144,11 @@ Q2. Attach the Downloaded report while submitting and write down summary of
 scanned analysis in brief.
 
 Data Collection: Q2_Scan_L.V.A
+![Screen Shot 2025-01-18 at 8 29 55 PM](https://github.com/user-attachments/assets/3da2e798-2e4a-4df2-a815-32f68c2f908b)
+![Screen Shot 2025-01-18 at 8 32 33 PM](https://github.com/user-attachments/assets/1ffa9335-09ba-43d7-9ba9-4c594c6b3eb9)
+![Screen Shot 2025-01-18 at 8 34 49 PM](https://github.com/user-attachments/assets/eec30816-d6b2-4bd5-936b-51719225a399)
+![Screen Shot 2025-01-18 at 8 35 32 PM](https://github.com/user-attachments/assets/ea03399c-92b9-4e05-a043-4f6cb37574c0)
+![Screen Shot 2025-01-18 at 8 36 11 PM](https://github.com/user-attachments/assets/39e04558-cf00-4ac2-a5d4-82787b201e3f)
 
 Data analysis:
 In the Complete List of Vulnerabilities Assessment by host I analyzed that the lab had a total of 32
@@ -173,7 +179,8 @@ To complete this recipe, you will need a virtual machine(s) to test against: Sta
 
 ![Screen Shot 2025-01-18 at 4 31 10 PM](https://github.com/user-attachments/assets/36c8e5a3-661f-4026-8a0f-d6fcdc631d7f)
 
-![Screen Shot 2025-01-18 at 4 23 23 PM](https://github.com/user-attachments/assets/a5419abd-8e7c-4a22-b872-12dcd9c5ee9f)
+![Screen Shot 2025-01-18 at 4 50 09 PM](https://github.com/user-attachments/assets/0ff6b938-d1e1-4f01-af4e-3a93bda5dbdc)
+
 
 9 On the Plugins tab, click on Disable All and select the following specific vulnerabilities: • CISCO
 • DNS
@@ -197,8 +204,7 @@ To complete this recipe, you will need a virtual machine(s) to test against: Sta
 • Click on the number under the column to get the list of specific issues vulnerabilities found
 • The vulnerabilities will be listed in detail
 
-
-![Screen Shot 2025-01-18 at 4 39 53 PM](https://github.com/user-attachments/assets/905348a9-c4fb-43fc-ba0d-f92b7cb9497e)
+![Screen Shot 2025-01-18 at 4 39 53 PM](https://github.com/user-attachments/assets/633f404e-b20b-4d87-80eb-0fa99ed1cd55)
 
 
 14. Click on export Report – Complete List of Vulnerabilities by host
@@ -206,6 +212,14 @@ To complete this recipe, you will need a virtual machine(s) to test against: Sta
 Q3. Attach the Downloaded report while submitting and write down summary of scanned analysis in brief.
 
 Data Collection: Q3_Scan_Internal_NetworkNew
+![Screen Shot 2025-01-18 at 8 46 38 PM](https://github.com/user-attachments/assets/b66e93e9-f345-436d-b774-a9873835382b)
+![Screen Shot 2025-01-18 at 8 53 04 PM](https://github.com/user-attachments/assets/0237e325-2110-471f-952a-fb6bdd67c5c5)
+![Screen Shot 2025-01-18 at 8 53 47 PM](https://github.com/user-attachments/assets/37ff224b-59f4-42cb-8861-dd440a4a46bb)
+![Screen Shot 2025-01-18 at 8 54 18 PM](https://github.com/user-attachments/assets/b99f4084-a195-4fa5-aef0-0c18953f0a23)
+![Screen Shot 2025-01-18 at 8 54 56 PM](https://github.com/user-attachments/assets/ad31008d-da5a-4cd4-92d3-a7ab177ed24a)
+![Screen Shot 2025-01-18 at 8 55 29 PM](https://github.com/user-attachments/assets/70e44026-3a98-4b26-81b1-efcb8b0e5776)
+![Screen Shot 2025-01-18 at 8 55 51 PM](https://github.com/user-attachments/assets/330c948c-fe61-4c04-a77a-6cad0a09649d)
+![Screen Shot 2025-01-18 at 8 56 23 PM](https://github.com/user-attachments/assets/a6bc3b9a-2c48-425a-b31c-1cba0806e7be)
 
 
 Data analysis:
@@ -231,7 +245,8 @@ Nessus – Finding Linux-specific vulnerabilities:
 
 ![Screen Shot 2025-01-18 at 4 47 26 PM](https://github.com/user-attachments/assets/20109041-08a3-4d33-ad6b-64ce69b15cbb)
 
-![Screen Shot 2025-01-18 at 4 50 09 PM](https://github.com/user-attachments/assets/d8c92bc7-59ea-4928-89c1-19f74d48b0ea)
+
+![Screen Shot 2025-01-18 at 4 50 09 PM](https://github.com/user-attachments/assets/dc6e3af7-1f41-4379-9bff-2691ca89df60)
 
 9.
 On the Plugins tab, click on Disable All and enter the following specific vulnerabilities. This list is going to be rather long as we are scanning for services that may be running on our Linux target:
@@ -276,6 +291,12 @@ On the Plugins tab, click on Disable All and enter the following specific vulner
 Q4. Attach the Downloaded report while submitting and write down summary of scanned analysis in brief.
 
 Data Collection: Q2_Scan_L.V.A
+![Screen Shot 2025-01-18 at 8 29 55 PM](https://github.com/user-attachments/assets/3da2e798-2e4a-4df2-a815-32f68c2f908b)
+![Screen Shot 2025-01-18 at 8 32 33 PM](https://github.com/user-attachments/assets/1ffa9335-09ba-43d7-9ba9-4c594c6b3eb9)
+![Screen Shot 2025-01-18 at 8 34 49 PM](https://github.com/user-attachments/assets/eec30816-d6b2-4bd5-936b-51719225a399)
+![Screen Shot 2025-01-18 at 8 35 32 PM](https://github.com/user-attachments/assets/ea03399c-92b9-4e05-a043-4f6cb37574c0)
+![Screen Shot 2025-01-18 at 8 36 11 PM](https://github.com/user-attachments/assets/39e04558-cf00-4ac2-a5d4-82787b201e3f)
+
 
 Data analysis:
 In the Complete List of Vulnerabilities Assessment by host on the Metasploitable machine. I analyzed
